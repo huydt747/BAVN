@@ -1,9 +1,12 @@
 # BAVN (Truy cập sớm)
 Một công cụ làm Visual Novel theo phong cách Blue Archive
+
 English users please go to README_EN.md
 ![Untitled](https://github.com/user-attachments/assets/1ede932e-cb0a-4805-ba19-706efe23ea68)
 
 ## Giới thiệu
+BAVN là viết tắt của Blue Archive Visual Novel
+
 Như mô tả, đây là dự án dành cho các Sensei tự tạo câu chuyện cho riêng mình và chia sẻ lên mạng xã hội. Để chia sẻ, khuyến khích dùng phần mềm quay phim như OBS. Là truy cập sớm, dự án hiện tại thiếu nhiều học sinh, nền, âm thanh,... Nhưng nếu bạn là người sáng tạo nội dung, bạn có thể yêu cầu để làm nhanh hơn.
 
 ## Yêu cầu: Windows 7 (64bits) trở lên
@@ -32,5 +35,7 @@ https://www.youtube.com/@ZeilLearnings/videos
 https://www.renpy.org/doc/html/index.html
 
 #### Hướng dẫn dùng đã ghi trong scripts.rpy, transform.rpy,...
+## Nhật kí chỉnh sửa
+(Ngày/Tháng/Năm): Chính thức ra mắt
 
 ## Chúc may mắn!
