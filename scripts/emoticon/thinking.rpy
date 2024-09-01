@@ -2,7 +2,9 @@ image dot_1 = "images/emoticon/Emoticon_Idea_1.png"
 image dot_2 = "images/emoticon/Emoticon_Idea_2.png"
 image dot_3 = "images/emoticon/Emoticon_Idea_3.png"
 image balloon_T = "images/emoticon/Emoticon_Balloon_T.png"
-
+init -1 python:
+    def play_effect_thinking(trans, st, at):
+        renpy.play("sfx/thinking.ogg", channel="sound")
 
 image _balloon_T:
     "balloon_T"
@@ -13,6 +15,7 @@ image _balloon_T:
     pause 1.1
     linear 0.5 alpha 0
 image _dot_1:
+    function play_effect_thinking
     pause 0.1
     "dot_1"
     zoom 0.7

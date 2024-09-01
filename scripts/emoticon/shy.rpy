@@ -1,6 +1,8 @@
 image balloon_N = "images/emoticon/Emoticon_Balloon_N.png"
 image shy = "images/emoticon/Emoticon_Shy.png"
-
+init -1 python:
+    def play_effect_shy(trans, st, at):
+        renpy.play("sfx/shy.ogg", channel="sound")
 image _balloon_N:
     "balloon_N"
     subpixel True
@@ -12,6 +14,7 @@ image _balloon_N:
 
 image _shy:
     "shy"
+    function play_effect_shy
     subpixel True
     anchor(0.5, 0.5)
     zoom 0.3

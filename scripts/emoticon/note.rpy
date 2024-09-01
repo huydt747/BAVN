@@ -1,8 +1,8 @@
 image note = "images/emoticon/Emoticon_Note.png"
 
-# init -1 python:
-#     def play_effect(trans, st, at):
-#         renpy.play("effect.ogg", channel="sound")
+init -1 python:
+    def play_effect_note(trans, st, at):
+        renpy.play("sfx/note.ogg", channel="sound")
 
 image _note:
     "note"
@@ -12,7 +12,7 @@ image _note:
         offset (0.0, 0.0) 
         easein 1.00 offset (-30.0, -20.0) 
         linear 0.5 alpha 0
-        #function play_effect
+        function play_effect_note
     parallel:
         rotate 0.0 
         linear 0.15 rotate 5.0 

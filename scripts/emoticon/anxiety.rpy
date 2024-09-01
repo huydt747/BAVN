@@ -1,8 +1,11 @@
 #balloon_N import từ thinking.rpy
 image anxiety = "images/emoticon/Emoticon_Anxiety.png"
-
+init -1 python:
+    def play_effect_anxiety(trans, st, at):
+        renpy.play("sfx/anxiety.ogg", channel="sound")
 image _anxiety:
     "anxiety"
+    function play_effect_anxiety
     subpixel True
     anchor(0.5, 0.5)
     zoom 0.4

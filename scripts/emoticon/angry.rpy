@@ -1,7 +1,10 @@
 image angry = "images/emoticon/Emoticon_Aggro.png"
-
+init -1 python:
+    def play_effect_angry(trans, st, at):
+        renpy.play("sfx/angry.ogg", channel="sound")
 image _angry:
     "angry"
+    function play_effect_angry
     subpixel True
     transform_anchor True anchor(0.5, 0.5)
     parallel:

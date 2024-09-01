@@ -1,9 +1,11 @@
 image sweat_1 = "images/emoticon/Emoticon_Sweat_1.png"
 image sweat_2 = "images/emoticon/Emoticon_Sweat_2.png"
-
+init -1 python:
+    def play_effect_sweat(trans, st, at):
+        renpy.play("sfx/sweat.ogg", channel="sound")
 image _sweat_1:
     "sweat_1"
-
+    function play_effect_sweat
     alpha 0.0
     zoom 0.5
     subpixel True

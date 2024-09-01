@@ -1,8 +1,11 @@
 #serika 5 1:15
 image heart = "images/emoticon/Emoticon_Heart.png"
-
+init -1 python:
+    def play_effect_heart(trans, st, at):
+        renpy.play("sfx/heart.ogg", channel="sound")
 image _heart:
     "heart"
+    function play_effect_heart
     subpixel True 
     anchor(0.5, 0.5)
     alpha 0

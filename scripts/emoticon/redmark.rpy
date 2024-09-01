@@ -1,7 +1,10 @@
 image redmark = "images/emoticon/Emoticon_ExclamationMark.png"
-
+init -1 python:
+    def play_effect_exclamationmark(trans, st, at):
+        renpy.play("sfx/exclamationmark.ogg", channel="sound")
 image _redmark:
     "redmark"
+    function play_effect_exclamationmark
     subpixel True
     transform_anchor True anchor(1.0, 1.0)
     parallel:

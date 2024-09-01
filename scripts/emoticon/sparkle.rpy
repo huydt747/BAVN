@@ -1,10 +1,12 @@
 image sparkle_1 = "images/emoticon/Emoticon_Twinkle.png"
 image sparkle_2 = "images/emoticon/Emoticon_Twinkle.png"
 image sparkle_3 = "images/emoticon/Emoticon_Twinkle.png"
-
+init -1 python:
+    def play_effect_sparkle(trans, st, at):
+        renpy.play("sfx/sparkle.ogg", channel="sound")
 image _sparkle_1:
     "sparkle_1"
-
+    function play_effect_sparkle
     subpixel True
     anchor (0.5, 0.5)
     zoom 0.75    
