@@ -40,6 +40,6 @@ https://www.renpy.org/doc/html/index.html
 
 ## Chúc may mắn!
 
-##Giấy phép, Bản quyền
+## Giấy phép, Bản quyền
 - Phần code thuộc MPL-2.0 license
 - Hình ảnh, âm thanh, nhân vật thuộc về Nexon, Yostar và các chủ sở hữu của chúng
