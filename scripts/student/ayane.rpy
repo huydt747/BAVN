@@ -67,11 +67,30 @@ layeredimage ayane:
     group emoticon:
         attribute null default:
             "null"
-        attribute thinking:
-            "_thinking"
+        attribute action:
+            "ayane_action"    
         attribute angry:
-            "_angry"   
-        attribute loud:
-            "_action"    
+            "ayane_angry"       
+        attribute anxiety:
+            "ayane_anxiety"    
+        attribute chat:
+            "ayane_chat"       
+        attribute heart:
+            "ayane_heart"
+        attribute note:
+            "ayane_note"     
         attribute redmark:
-            "_redmark"                                                        
+            "ayane_redmark"    
+        attribute sad:
+            "ayane_sad"  
+        attribute shy:
+            "ayane_shy"   
+        attribute sigh:
+            "ayane_sigh"            
+        attribute sparkle:
+            "ayane_sparkle"       
+        attribute sweat:
+            "ayane_sweat"   
+        attribute thinking:
+            "ayane_thinking"    
+           

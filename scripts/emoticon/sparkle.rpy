@@ -2,7 +2,7 @@ image sparkle_1 = "images/emoticon/Emoticon_Twinkle.png"
 image sparkle_2 = "images/emoticon/Emoticon_Twinkle.png"
 image sparkle_3 = "images/emoticon/Emoticon_Twinkle.png"
 
-image _sparkle_1_:
+image _sparkle_1:
     "sparkle_1"
 
     subpixel True
@@ -20,7 +20,7 @@ image _sparkle_1_:
         pause 1.5
         linear 0.9 alpha 0
 
-image _sparkle_2_:
+image _sparkle_2:
     "sparkle_2"
 
     subpixel True
@@ -37,7 +37,7 @@ image _sparkle_2_:
         pause 1.5
         linear 0.9 alpha 0
 
-image _sparkle_3_:
+image _sparkle_3:
     "sparkle_3"
 
     subpixel True
@@ -55,16 +55,42 @@ image _sparkle_3_:
         pause 1.5
         linear 0.9 alpha 0
 
-layeredimage _sparkle:
+layeredimage yuuka_sparkle:
     always:
         zoom 0.4
         pos (155, 110)
-        "_sparkle_1_"
+        "_sparkle_1"
     always:
         zoom 0.5
         pos (130, 132)
-        "_sparkle_2_"
+        "_sparkle_2"
     always:
         zoom 0.5
         pos (155, 155)
-        "_sparkle_3_"
+        "_sparkle_3"
+layeredimage serika_sparkle:
+    always:
+        zoom 0.4
+        pos (175, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (150, 132)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (175, 155)
+        "_sparkle_3"
+layeredimage ayane_sparkle:
+    always:
+        zoom 0.4
+        pos (75, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (50, 132)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (75, 155)
+        "_sparkle_3"

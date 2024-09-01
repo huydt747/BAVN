@@ -2,7 +2,7 @@ image sad_1 = "images/emoticon/Emoji_Sad.png"
 image sad_2 = "images/emoticon/Emoji_Sad.png"
 image sad_3 = "images/emoticon/Emoji_Sad.png"
 
-image _sad_1_:
+image _sad_1:
     "sad_1"
     
     subpixel True 
@@ -22,7 +22,7 @@ image _sad_1_:
         linear 0.5 alpha 0    
     #Pause(1.10)
 
-image _sad_2_:
+image _sad_2:
     "sad_2"
 
     subpixel True
@@ -43,7 +43,7 @@ image _sad_2_:
     parallel:
         pause 1.6
         linear 0.5 alpha 0      
-image _sad_3_:
+image _sad_3:
     "sad_3"
 
     subpixel True
@@ -65,13 +65,33 @@ image _sad_3_:
         pause 1.6
         linear 0.5 alpha 0           
 
-layeredimage _sad:
+layeredimage yuuka_sad:
     always:
         pos(130, 90)
-        "_sad_1_"
+        "_sad_1"
     always:
         pos(145, 100)
-        "_sad_2_"
+        "_sad_2"
     always:
         pos(160, 80)
-        "_sad_3_"
+        "_sad_3"
+layeredimage serika_sad:
+    always:
+        pos(160, 90)
+        "_sad_1"
+    always:
+        pos(175, 100)
+        "_sad_2"
+    always:
+        pos(190, 80)
+        "_sad_3"
+layeredimage ayane_sad:
+    always:
+        pos(50, 90)
+        "_sad_1"
+    always:
+        pos(65, 100)
+        "_sad_2"
+    always:
+        pos(80, 80)
+        "_sad_3"        

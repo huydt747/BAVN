@@ -8,7 +8,6 @@ image yk 6 = "images/characters/yuuka/6.png"
 image yk 7 = "images/characters/yuuka/7.png"
 image yk 8 = "images/characters/yuuka/8.png"
 image yk 1 = "images/characters/yuuka/1.png"
-image bg classroom2= "images/bg classroom2.jpg"
 
 image null1 = "images/emoticon/null.png"
 
@@ -62,32 +61,33 @@ layeredimage yuuka:
     group emoticon:
         attribute null default:
             "null"
-        attribute loud:
-            "_action"    
+        attribute action:
+            "yuuka_action"    
         attribute angry:
-            "_angry"       
+            "yuuka_angry"       
         attribute anxiety:
-            "_anxiety"    
+            "yuuka_anxiety"    
         attribute chat:
-            "_chat"       
-        attribute thinking:
-            "_thinking"
+            "yuuka_chat"       
         attribute heart:
-            "_heart"
+            "yuuka_heart"
         attribute note:
-            "_note"     
+            "yuuka_note"     
         attribute redmark:
-            "_redmark"    
+            "yuuka_redmark"    
         attribute sad:
-            "_sad"  
+            "yuuka_sad"  
         attribute shy:
-            "_shy"      
-        attribute sparkle:
-            "_sparkle"       
-        attribute sweat:
-            "_sweat"   
+            "yuuka_shy"   
         attribute sigh:
-            "_sigh"        
+            "yuuka_sigh"            
+        attribute sparkle:
+            "yuuka_sparkle"       
+        attribute sweat:
+            "yuuka_sweat"   
+        attribute thinking:
+            "yuuka_thinking"    
+           
         
            
             

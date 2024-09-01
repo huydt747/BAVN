@@ -1,6 +1,6 @@
 image angry = "images/emoticon/Emoticon_Aggro.png"
 
-image _angry_:
+image _angry:
     "angry"
     subpixel True
     transform_anchor True anchor(0.5, 0.5)
@@ -15,12 +15,16 @@ image _angry_:
         linear 1.00 alpha 1.0 
         linear 0.30 alpha 0.0 
   
-# image _angry = Composite(
-#     (0, 0),
-#     (150, 100), "_angry_"
-# )
 
-layeredimage _angry:
+layeredimage yuuka_angry:
     always:
         pos(170,120)
-        "_angry_"
+        "_angry"
+layeredimage serika_angry:
+    always:
+        pos(180,120)
+        "_angry"        
+layeredimage ayane_angry:
+    always:
+        pos(70,120)
+        "_angry"        

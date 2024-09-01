@@ -1,7 +1,7 @@
 image sweat_1 = "images/emoticon/Emoticon_Sweat_1.png"
 image sweat_2 = "images/emoticon/Emoticon_Sweat_2.png"
 
-image sweat_1_:
+image _sweat_1:
     "sweat_1"
 
     alpha 0.0
@@ -13,7 +13,7 @@ image sweat_1_:
     pause 0.6
     linear 1 alpha 0
 
-image sweat_2_:
+image _sweat_2:
     "sweat_2"
 
     alpha 0.0
@@ -25,10 +25,24 @@ image sweat_2_:
     ease_quint 1.5 yoffset 30 
     linear 1 alpha 0
 
-layeredimage _sweat:
+layeredimage yuuka_sweat:
     always:
         pos (140, 60)
-        "sweat_1_"
+        "_sweat_1"
     always:
         pos (175, 60)
-        "sweat_2_"
+        "_sweat_2"
+layeredimage serika_sweat:
+    always:
+        pos (160, 60)
+        "_sweat_1"
+    always:
+        pos (195, 60)
+        "_sweat_2"
+layeredimage ayane_sweat:
+    always:
+        pos (70, 60)
+        "_sweat_1"
+    always:
+        pos (105, 60)
+        "_sweat_2"                

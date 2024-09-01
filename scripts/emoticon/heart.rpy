@@ -1,8 +1,7 @@
 #serika 5 1:15
-#gọi balloon_T từ shy.rpy
 image heart = "images/emoticon/Emoticon_Heart.png"
 
-image _heart_:
+image _heart:
     "heart"
     subpixel True 
     anchor(0.5, 0.5)
@@ -22,11 +21,27 @@ image _heart_:
         pause 0.85
         linear 0.5 alpha 0    
     #0.85s
-layeredimage _heart:
+layeredimage yuuka_heart:
     always:
         pos (164, 155)
         "_balloon_N"
     always:
         zoom 0.5
         pos (112, 113)
-        "_heart_"
+        "_heart"
+layeredimage serika_heart:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (112, 113)
+        "_heart"
+layeredimage ayane_heart:
+    always:
+        pos (90, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (38, 113)
+        "_heart"                

@@ -1,7 +1,7 @@
-#balloon_T import từ shy.rpy
+#balloon_N import từ thinking.rpy
 image anxiety = "images/emoticon/Emoticon_Anxiety.png"
 
-image _anxiety_:
+image _anxiety:
     "anxiety"
     subpixel True
     anchor(0.5, 0.5)
@@ -28,10 +28,24 @@ image _anxiety_:
         pause 0.8
         linear 0.5 alpha 0  
 
-layeredimage _anxiety:
+layeredimage yuuka_anxiety:
     always:
         pos (164, 155)
         "_balloon_N"
     always:
         pos (114, 115)
-        "_anxiety_"
+        "_anxiety"
+layeredimage serika_anxiety:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        pos (114, 115)
+        "_anxiety"
+layeredimage ayane_anxiety:
+    always:
+        pos (80, 155)
+        "_balloon_N"
+    always:
+        pos (30, 115)
+        "_anxiety"                

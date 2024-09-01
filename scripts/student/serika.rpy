@@ -55,11 +55,30 @@ layeredimage serika:
     group emotion:
         attribute null default:
             "null"
-        attribute thinking:
-            "_thinking"
+        attribute action:
+            "serika_action"    
         attribute angry:
-            "_angry"   
-        attribute loud:
-            "_action"                                                     
-
-
+            "serika_angry"       
+        attribute anxiety:
+            "serika_anxiety"    
+        attribute chat:
+            "serika_chat"       
+        attribute heart:
+            "serika_heart"
+        attribute note:
+            "serika_note"     
+        attribute redmark:
+            "serika_redmark"    
+        attribute sad:
+            "serika_sad"  
+        attribute shy:
+            "serika_shy"   
+        attribute sigh:
+            "serika_sigh"            
+        attribute sparkle:
+            "serika_sparkle"       
+        attribute sweat:
+            "serika_sweat"   
+        attribute thinking:
+            "serika_thinking"    
+                

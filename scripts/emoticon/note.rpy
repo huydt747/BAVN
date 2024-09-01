@@ -4,7 +4,7 @@ image note = "images/emoticon/Emoticon_Note.png"
 #     def play_effect(trans, st, at):
 #         renpy.play("effect.ogg", channel="sound")
 
-image _note_:
+image _note:
     "note"
 
     subpixel True  
@@ -27,9 +27,18 @@ image _note_:
         linear 0.15 zoom 1.05    
     #with Pause(1.10)
 
-layeredimage _note:
+layeredimage yuuka_note:
     always:
         zoom 0.35
         pos (140, 80) #164
-        "_note_"
-
+        "_note"
+layeredimage serika_note:
+    always:
+        zoom 0.35
+        pos (140, 80) #164
+        "_note"
+layeredimage ayane_note:
+    always:
+        zoom 0.35
+        pos (20, 80) #164
+        "_note"        
