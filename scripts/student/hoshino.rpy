@@ -24,15 +24,11 @@ image hsn 18 = "images/characters/hoshino/18.png"
 image hsn 19 = "images/characters/hoshino/19.png"
 
 layeredimage hoshino:
-    anchor(0.5, 0)
+    anchor(0.5, 1)
     ypos 0.1    
-    zoom 1.5
+    zoom 1.6
     always:
-        "hsn halo1"
-    always:    
-        "hsn halo2"
-    always:    
-        "hsn halo3"   
+        "hoshino_halo_animated"  
     always:
         "hsn body"    
     group eyes:
@@ -105,4 +101,32 @@ layeredimage hoshino:
             "hoshino_sweat"   
         attribute thinking:
             "hoshino_thinking"    
-           
+
+image hoshino_halo1:
+    "hsn halo1"
+    subpixel True 
+    pause 0.25
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+image hoshino_halo2:
+    "hsn halo2"
+    subpixel True 
+    pause 0.5
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+image hoshino_halo3:
+    "hsn halo3"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+
+layeredimage hoshino_halo_animated:
+    always:
+        "hoshino_halo3"
+    always:
+        "hoshino_halo2"
+    always:
+        "hoshino_halo1"    

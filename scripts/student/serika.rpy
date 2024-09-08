@@ -17,10 +17,10 @@ image srk 14 = "images/characters/serika/14.png"
 
 layeredimage serika:
     anchor(0.5, 1)
-    ypos 0
+    ypos 0.05
     zoom 1.7
     always:
-        "srk halo"
+        "serika_halo_animated"
     always:
         "srk body"
     group eyes:
@@ -82,3 +82,13 @@ layeredimage serika:
         attribute thinking:
             "serika_thinking"    
                 
+image serika_halo:
+    "srk halo"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+layeredimage serika_halo_animated:
+    always:
+        "serika_halo"
+                 

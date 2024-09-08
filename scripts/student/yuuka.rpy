@@ -11,16 +11,6 @@ image yk 1 = "images/characters/yuuka/1.png"
 
 image null1 = "images/emoticon/null.png"
 
-### Chưa hoàn thành: Vòng halo chuyển động
-# image yuuka_halo:
-#     "yk halo"
-#     subpixel True 
-#     ypos 0.0 
-#     easein 5.00 ypos 0.01 
-#     easeout 5.00 ypos 0.0 
-#     # pause 6.10    
-#     repeat
-
 #for testing
 # layeredimage null2:
 #     anchor(0.5, 0.5)
@@ -38,7 +28,7 @@ layeredimage yuuka:
     ypos 0
     zoom 1.7
     always:
-        "yk halo" 
+        "yuuka_halo_animated" 
     always:
         "yk body"   
     group eyes:
@@ -88,9 +78,14 @@ layeredimage yuuka:
         attribute thinking:
             "yuuka_thinking"    
            
-        
-           
-            
-          
-         
+# Halo chuyển động           
+image yuuka_halo:
+    "yk halo"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+layeredimage yuuka_halo_animated:
+    always:
+        "yuuka_halo"
                  

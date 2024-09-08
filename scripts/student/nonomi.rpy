@@ -23,14 +23,12 @@ image nnm 18 = "images/characters/nonomi/18.png"
 image nnm 19 = "images/characters/nonomi/19.png"
 
 layeredimage nonomi:
-    anchor(0.5, 0)
-    ypos 0.1    
-    xpos 0.55
-    zoom 1.55
+    anchor(0.35, 1)
+    ypos 0.05    
+    xpos 0.50
+    zoom 1.7
     always:
-        "nnm halo1"
-    always:    
-        "nnm halo2"
+        "nonomi_halo_animated"
     always:
         "nnm body"   
     group eyes:
@@ -104,3 +102,23 @@ layeredimage nonomi:
         attribute thinking:
             "nonomi_thinking"    
                    
+image nonomi_halo1:
+    "nnm halo1"
+    subpixel True 
+    pause 0.5
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+image nonomi_halo2:
+    "nnm halo2"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+
+layeredimage nonomi_halo_animated:
+    always:
+        "nonomi_halo1"
+    always:
+        "nonomi_halo2"
+                                

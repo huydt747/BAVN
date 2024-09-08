@@ -20,10 +20,10 @@ image ayn 16 = "images/characters/ayane/16.png"
 
 layeredimage ayane:
     anchor(0.5, 1)
-    ypos 0
-    zoom 1.7
+    ypos 0.05
+    zoom 1.7    
     always:
-        "ayn halo"   
+        "ayane_halo_animated"   
     always:
         "ayn body"      
     group eyes:
@@ -93,4 +93,14 @@ layeredimage ayane:
             "ayane_sweat"   
         attribute thinking:
             "ayane_thinking"    
-           
+
+image ayane_halo:
+    "ayn halo"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+layeredimage ayane_halo_animated:
+    always:
+        "ayane_halo"
+                 

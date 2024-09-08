@@ -10,11 +10,11 @@ image shrk 7 = "images/characters/shiroko/7.png"
 
 layeredimage shiroko:
     anchor(0.5, 0)
-    ypos 0.1 
+    ypos 0.05
     xpos 0.46   
     zoom 1.6
     always:
-        "shrk halo"
+        "shiroko_halo_animated"
     always:
         "shrk body"
     group eyes:
@@ -62,3 +62,13 @@ layeredimage shiroko:
         attribute thinking:
             "shiroko_thinking"    
                        
+image shiroko_halo:
+    "shrk halo"
+    subpixel True 
+    ease 5.00 yoffset -3
+    ease 5.00 yoffset 3 
+    repeat
+layeredimage shiroko_halo_animated:
+    always:
+        "shiroko_halo"
+                                        
