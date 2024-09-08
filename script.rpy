@@ -1,6 +1,11 @@
 ﻿label start:
     # Viết câu chuyện của bạn ở đây, chúc may mắn
+    # Tuy nhiên bạn có thể tự tạo và làm ở file khác như story.rpy
+    # Ví dụ code story.rpy ở dưới
+
     # Write your own story here, good luck
+    # However you can create and edit your own file like story.rpy
+    # Editing example at below
 
 
 
@@ -9,7 +14,15 @@
     # Delete comment (#) to run demo, also look at it for references
     # Demo trên Youtube: https://www.youtube.com/watch?v=ilRtgrTB4yM
     call demo
+    # Dùng call story để gọi
+    # Then use call story
     return
+
+# label story:
+# Viết câu chuyện của bạn ở đây
+# Write your own story
+# return
+
 
 # prefix của học sinh ở define.rpy (Chẳng hạn yk = yuuka)
 # student prefix is at define.rpy (ex: yk = yuuka)
