@@ -95,21 +95,39 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen say(who, what):
+# screen say(who, what):
+#     style_prefix "say"
+
+#     window:
+#         id "window"
+
+#         if who is not None:
+
+#             window:
+#                 id "namebox"
+#                 style "namebox"
+#                 text who id "who"
+
+#         text what id "what"
+screen say(who, what, faction=None, faction_color="#81d1fe", faction_outlines=[ (2, "#2a425b")], faction_font="fonts/OpenSans-Bold.ttf"):
     style_prefix "say"
 
     window:
         id "window"
 
         if who is not None:
-
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+
+                hbox:
+                    spacing 15
+                    text who id "who"
+
+                    if faction is not None:
+                        text faction color faction_color outlines faction_outlines font faction_font ypos 19
 
         text what id "what"
-
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
