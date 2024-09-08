@@ -67,7 +67,7 @@ image _sad_3:
         pause 1.6
         linear 0.5 alpha 0           
 
-layeredimage yuuka_sad:
+layeredimage yuuka_sad: # x + 15
     always:
         pos(130, 90)
         "_sad_1"
@@ -97,3 +97,33 @@ layeredimage ayane_sad:
     always:
         pos(80, 80)
         "_sad_3"        
+layeredimage hoshino_sad:
+    always:
+        pos(170, 90)
+        "_sad_1"
+    always:
+        pos(185, 100)
+        "_sad_2"
+    always:
+        pos(200, 80)
+        "_sad_3"        
+layeredimage nonomi_sad:
+    always:
+        pos(130, 90)
+        "_sad_1"
+    always:
+        pos(145, 100)
+        "_sad_2"
+    always:
+        pos(160, 80)
+        "_sad_3"        
+layeredimage shiroko_sad:
+    always:
+        pos(160, 90)
+        "_sad_1"
+    always:
+        pos(175, 100)
+        "_sad_2"
+    always:
+        pos(190, 80)
+        "_sad_3"                

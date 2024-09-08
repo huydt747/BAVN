@@ -42,3 +42,13 @@ layeredimage ayane_note:
         zoom 0.35
         pos (20, 80) #164
         "_note"        
+layeredimage hoshino_note:
+    always:
+        zoom 0.35
+        pos (160, 120) #164
+        "_note"
+layeredimage nonomi_note:
+    always:
+        zoom 0.35
+        pos (100, 80) #164
+        "_note"        

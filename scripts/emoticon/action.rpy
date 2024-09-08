@@ -23,4 +23,10 @@ image serika_action = Composite(
     (105, 90), "_action")   
 image ayane_action = Composite(
     (0, 0),
-    (15, 90), "_action")         
+    (15, 90), "_action")
+image hoshino_action = Composite(
+    (0, 0),
+    (150, 90), "_action")       
+image nonomi_action = Composite(
+    (0, 0),
+    (100, 90), "_action")             

@@ -20,3 +20,15 @@ layeredimage ayane_sigh:
     always:
         pos (40, 185)
         "_sigh"                
+layeredimage hoshino_sigh:
+    always:
+        pos (180, 200)
+        "_sigh"                
+layeredimage nonomi_sigh:
+    always:
+        pos (120, 185)
+        "_sigh"                                
+layeredimage shiroko_sigh:
+    always:
+        pos (170, 200)
+        "_sigh"                

@@ -31,3 +31,11 @@ layeredimage ayane_angry:
     always:
         pos(70,120)
         "_angry"        
+layeredimage hoshino_angry:
+    always:
+        pos(230,120)
+        "_angry"                
+layeredimage nonomi_angry:
+    always:
+        pos(180,120)
+        "_angry"                        

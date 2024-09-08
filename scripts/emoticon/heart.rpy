@@ -24,7 +24,7 @@ image _heart:
         pause 0.85
         linear 0.5 alpha 0    
     #0.85s
-layeredimage yuuka_heart:
+layeredimage yuuka_heart: #-52
     always:
         pos (164, 155)
         "_balloon_N"
@@ -47,4 +47,20 @@ layeredimage ayane_heart:
     always:
         zoom 0.5
         pos (38, 113)
+        "_heart"
+layeredimage hoshino_heart:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (148, 113)
         "_heart"                
+layeredimage nonomi_heart:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (98, 113)
+        "_heart"                                

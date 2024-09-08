@@ -32,19 +32,42 @@ layeredimage yuuka_sweat:
         pos (140, 60)
         "_sweat_1"
     always:
-        pos (175, 60)
+        pos (170, 60)
         "_sweat_2"
 layeredimage serika_sweat:
     always:
         pos (160, 60)
         "_sweat_1"
     always:
-        pos (195, 60)
+        pos (190, 60)
         "_sweat_2"
 layeredimage ayane_sweat:
     always:
         pos (70, 60)
         "_sweat_1"
     always:
-        pos (105, 60)
+        pos (100, 60)
         "_sweat_2"                
+layeredimage hoshino_sweat:
+    always:
+        pos (180, 60)
+        "_sweat_1"
+    always:
+        pos (210, 60)
+        "_sweat_2"                
+layeredimage nonomi_sweat:
+    always:
+        pos (140, 60)
+        "_sweat_1"
+    always:
+        pos (170, 60)
+        "_sweat_2"                
+layeredimage shiroko_sweat:
+    always:
+        pos (190, 60)
+        "_sweat_1"
+    always:
+        pos (220, 60)
+        "_sweat_2"                
+        
+             

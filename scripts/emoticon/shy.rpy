@@ -40,14 +40,14 @@ image _shy:
 
 layeredimage yuuka_shy:
     always:
-        pos (164, 155)
+        pos (165, 155)
         "_balloon_N"
     always:
         pos (115, 110)
         "_shy"
 layeredimage serika_shy:
     always:
-        pos (164, 155)
+        pos (165, 155)
         "_balloon_N"
     always:
         pos (112, 110)
@@ -57,5 +57,26 @@ layeredimage ayane_shy:
         pos (100, 155)
         "_balloon_N"
     always:
-        pos (48, 110)
+        pos (50, 110)
         "_shy"        
+layeredimage hoshino_shy:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        pos (150, 110)
+        "_shy"
+layeredimage nonomi_shy:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        pos (100, 110)
+        "_shy"
+layeredimage shiroko_shy:
+    always:
+        pos (180, 155)
+        "_balloon_N"
+    always:
+        pos (130, 110)
+        "_shy"                

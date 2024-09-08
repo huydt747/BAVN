@@ -28,4 +28,12 @@ layeredimage ayane_chat:
     always:
         pos (10, 190) 
         "_chat"
+layeredimage hoshino_chat:
+    always:
+        pos (150, 210) 
+        "_chat"
+layeredimage nonomi_chat:
+    always:
+        pos (90, 190) 
+        "_chat"
 

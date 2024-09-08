@@ -1,15 +1,5 @@
 label demo:
     scene bg classroom2
-
-    "..."       
-    show ayane anxiety
-    "..."
-    hide ayane
-    show serika thinking
-    "..."
-    hide serika
-    show yuuka e7 heart
-    yk "Chào các Sensei đã ghé thăm dự án BAVN."
     "Tôi cố gắng đến sớm để khỏi bị Yuuka cằn nhằn. Tuy nhiên, khi tôi đến đây, không có ai ở đây cả."
     ss "Kì thật, bõ công đến sớm..."
     "Sau đó, tôi thấy bóng của ai đó ngoài cửa đang lấp ló vào trong."
@@ -122,3 +112,4 @@ label demo:
     stop music fadeout 3.0
     scene black with fade
     pause
+    return

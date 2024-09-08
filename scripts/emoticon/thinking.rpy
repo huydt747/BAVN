@@ -33,13 +33,13 @@ image _dot_2:
     pause 0.6
     linear 0.5 alpha 0  
 image _dot_3:
-    pause 0.7
+    pause 0.8 
     "dot_3"
     zoom 0.7
     alpha 0.0 
     linear 0.2 alpha 0.0 
     linear 0.2 alpha 1.0 
-    pause 0.2
+    pause 0.1
     linear 0.5 alpha 0 
 
 # broken, use layerdimage under there instead    
@@ -50,9 +50,9 @@ image _dot_3:
 #     (15, 40), "_dot_2",
 #     (15, 40), "_dot_3")
 
-layeredimage yuuka_thinking:
+layeredimage yuuka_thinking: # 110 95
     always:
-        pos (165, 155) #164
+        pos (165, 155)
         "_balloon_T"
     always:
         pos (55, 60)
@@ -65,7 +65,7 @@ layeredimage yuuka_thinking:
         "_dot_3"
 layeredimage serika_thinking:
     always:
-        pos (165, 155) #164
+        pos (165, 155) 
         "_balloon_T"
     always:
         pos (55, 60)
@@ -78,7 +78,7 @@ layeredimage serika_thinking:
         "_dot_3"
 layeredimage ayane_thinking:
     always:
-        pos (90, 155) #164
+        pos (90, 155) 
         "_balloon_T"
     always:
         pos (-20, 60)
@@ -89,3 +89,42 @@ layeredimage ayane_thinking:
     always:
         pos (-20, 60)
         "_dot_3"                
+layeredimage hoshino_thinking:
+    always:
+        pos (200, 155) 
+        "_balloon_T"
+    always:
+        pos (90, 60)
+        "_dot_1"
+    always:
+        pos (90, 60)
+        "_dot_2"
+    always:
+        pos (90, 60)
+        "_dot_3"   
+layeredimage nonomi_thinking:
+    always:
+        pos (150, 155) 
+        "_balloon_T"
+    always:
+        pos (40, 60)
+        "_dot_1"
+    always:
+        pos (40, 60)
+        "_dot_2"
+    always:
+        pos (40, 60)
+        "_dot_3"   
+layeredimage shiroko_thinking:
+    always:
+        pos (190, 155) 
+        "_balloon_T"
+    always:
+        pos (80, 60)
+        "_dot_1"
+    always:
+        pos (80, 60)
+        "_dot_2"
+    always:
+        pos (80, 60)
+        "_dot_3"                           

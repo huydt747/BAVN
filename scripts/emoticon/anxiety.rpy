@@ -52,3 +52,17 @@ layeredimage ayane_anxiety:
     always:
         pos (30, 115)
         "_anxiety"                
+layeredimage hoshino_anxiety:
+    always:
+        pos (220, 155)
+        "_balloon_N"
+    always:
+        pos (170, 115)
+        "_anxiety"   
+layeredimage nonomi_anxiety:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        pos (100, 115)
+        "_anxiety"                   
