@@ -17,7 +17,7 @@ Demo: https://www.youtube.com/watch?v=ilRtgrTB4yM&
 
 ## Các bước cài đặt:
 #### Chuẩn bị:
-Visual Studio https://visualstudio.microsoft.com/downloads/
+Visual Studio Code https://code.visualstudio.com/
 
 Renpy launcher https://www.renpy.org/latest.html
 
