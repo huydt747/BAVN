@@ -20,7 +20,7 @@ layeredimage serika:
     ypos 0.05
     zoom 1.7
     always:
-        "serika_halo_animated"
+        "srk halo"
     always:
         "srk body"
     group eyes:

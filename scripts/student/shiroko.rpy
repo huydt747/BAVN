@@ -14,7 +14,7 @@ layeredimage shiroko:
     xpos 0.46   
     zoom 1.6
     always:
-        "shiroko_halo_animated"
+        "shrk halo"
     always:
         "shrk body"
     group eyes:

@@ -28,7 +28,7 @@ layeredimage yuuka:
     ypos 0
     zoom 1.7
     always:
-        "yuuka_halo_animated" 
+        "yk halo" 
     always:
         "yk body"   
     group eyes:

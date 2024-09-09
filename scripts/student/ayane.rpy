@@ -23,7 +23,7 @@ layeredimage ayane:
     ypos 0.05
     zoom 1.7    
     always:
-        "ayane_halo_animated"   
+        "ayn halo"   
     always:
         "ayn body"      
     group eyes:

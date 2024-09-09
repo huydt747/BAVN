@@ -28,7 +28,11 @@ layeredimage hoshino:
     ypos 0.1    
     zoom 1.6
     always:
-        "hoshino_halo_animated"  
+        "hsn halo3"  
+    always:
+        "hsn halo2" 
+    always:
+        "hsn halo1"         
     always:
         "hsn body"    
     group eyes:

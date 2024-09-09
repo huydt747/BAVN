@@ -28,7 +28,9 @@ layeredimage nonomi:
     xpos 0.50
     zoom 1.7
     always:
-        "nonomi_halo_animated"
+        "nnnm halo2"
+    always:
+        "nnnm halo1"    
     always:
         "nnm body"   
     group eyes:
