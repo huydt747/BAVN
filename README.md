@@ -33,7 +33,11 @@ https://www.youtube.com/@vimi/videos
 https://www.youtube.com/@ZeilLearnings/videos
 
 https://www.renpy.org/doc/html/index.html
-
+## Tài nguyên của Blue Archive
+- Âm thanh và hình ảnh đều đặt trong audio và images
+- Vì số lượng lớn khiến repo sẽ rất nặng nên mình đã tách sang drive
+- ![Down tài nguyên](https://drive.google.com/drive/folders/1BkaRi9Cy2sbsrpMYE5MrPYAgsCZSKvTj?usp=sharing)
+  
 #### Hướng dẫn dùng đã ghi trong scripts.rpy, transform.rpy,...
 ## Nhật kí chỉnh sửa
 (Ngày/Tháng/Năm): Chính thức ra mắt
