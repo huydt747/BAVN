@@ -12,7 +12,7 @@ label demo:
     pause 1
     show yuuka at hiddentoshow
     pause 0.5
-    show yuuka loud
+    show yuuka action
     play music "bgm/Theme_15.ogg" fadein 1.0 
     yk "Ô, là Sensei. Em chào thầy."
     show yuuka null
@@ -28,7 +28,7 @@ label demo:
     show yuuka at shake
     ss "(Tự nhiên Yuuka cảm thấy đáng sợ,... mình không nên hỏi thì-)"
     stop music fadeout 0.5
-    show yuuka at bounceup
+    show yuuka at bounceup1
     pause 0.5
     show yuuka angry
     play music "bgm/Theme_07.ogg" fadein 1.0
@@ -63,7 +63,7 @@ label demo:
     play music "bgm/Theme_16.ogg" fadein 1
     "Thầy thích xì dách đúng không, phát bài đi."
     show yuuka e3
-    show yuuka at bouncedown
+    show yuuka at bouncedown1
     "..."
     scene black with fade
     show yuuka e3
@@ -83,7 +83,7 @@ label demo:
     show yuuka e8
     yk "Giả bộ mỉm cười một cái. Thầy sẽ biết mình có con bài to và chắc chắn sẽ rút."
     scene bg classroom2 with fade
-    show yuuka loud
+    show yuuka action
     yk "Em dằn!"
     show yuuka null
     show yuuka e8
@@ -97,9 +97,9 @@ label demo:
     ss "Quắc... Hahahahaha..."
     show yuuka e1 at shake
     yk "Cười cái gì, cho em xem bài coi!"
-    show yuuka at bouncedown
+    show yuuka at bouncedown1
     yk "16... Không thể nào... Sao thầy dám dằn dơ thế này?"
-    show yuuka at bounceup:
+    show yuuka at bounceup1:
         zoom 1.2
     "Thôi không chơi nữa, em nghỉ!"
     show yuuka e1 null:

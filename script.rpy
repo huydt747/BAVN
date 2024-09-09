@@ -19,8 +19,8 @@
     return
 
 # label story:
-# Viết câu chuyện của bạn ở đây
-# Write your own story
+#   Viết câu chuyện của bạn ở đây
+#   Write your own story
 # return
 
 
