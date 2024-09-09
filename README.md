@@ -9,6 +9,10 @@ BAVN là viết tắt của Blue Archive Visual Novel
 
 Như mô tả, đây là dự án dành cho các Sensei tự tạo câu chuyện cho riêng mình và chia sẻ lên mạng xã hội. Để chia sẻ, khuyến khích dùng phần mềm quay phim như OBS. Là truy cập sớm, dự án hiện tại thiếu nhiều học sinh, nền, âm thanh,... Nhưng nếu bạn là người sáng tạo nội dung, bạn có thể yêu cầu để làm nhanh hơn. Khuyến khích lăn xuống để đọc thêm.
 
+Kênh Youtube riêng: ![Click](https://www.youtube.com/@ChocolaDeluxed)
+
+Demo: ![Click](https://www.youtube.com/watch?v=ilRtgrTB4yM&t=4s)
+
 ## Yêu cầu: Windows 7 (64bits) trở lên
 
 ## Các bước cài đặt:
@@ -40,7 +44,7 @@ https://www.renpy.org/doc/html/index.html
   
 #### Hướng dẫn dùng đã ghi trong scripts.rpy, transform.rpy,...
 ## Nhật kí chỉnh sửa
-(Ngày/Tháng/Năm): Chính thức ra mắt
+(9/9/2024): Chính thức ra mắt. Ayane, Hoshino, Nonomi, Serika, Shiroko, Yuuka đã được thêm vào.
 
 ## Chúc may mắn!
 
