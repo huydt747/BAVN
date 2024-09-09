@@ -264,17 +264,21 @@ screen quick_menu():
         hbox:
             style_prefix "quick"
 
-            xalign 0.5
-            yalign 1.0
+            xalign 0.99
+            yalign 0.02
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            # textbutton _("Back") action Rollback()
+            # textbutton _("History") action ShowMenu('history')
+            # textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            # textbutton _("Auto") action Preference("auto-forward", "toggle")
+            # textbutton _("Save") action ShowMenu('save')
+            # textbutton _("Q.Save") action QuickSave()
+            # textbutton _("Q.Load") action QuickLoad()
+            # textbutton _("Prefs") action ShowMenu('preferences')
+
+            imagebutton idle "gui/auto.png" selected_idle "gui/auto_selected.png" action Preference("auto-forward", "toggle")
+            imagebutton idle "gui/menu.png" action ShowMenu('preferences')
+            
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
