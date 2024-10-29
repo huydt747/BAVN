@@ -13,7 +13,11 @@ Kênh Youtube riêng: https://www.youtube.com/@ChocolaDeluxed
 
 Demo: https://www.youtube.com/watch?v=ilRtgrTB4yM&
 
-## Yêu cầu: Windows 7 (64bits) trở lên
+## Yêu cầu: Windows 7 trở lên
+
+Đối với 32 bits: Hãy dùng Renpy 7
+
+Đối với 64 bits: Hãy dùng Renpy 8
 
 ## Các bước cài đặt:
 #### Chuẩn bị:
