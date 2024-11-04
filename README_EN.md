@@ -2,7 +2,7 @@
 # BAVN (Early access)
 A tool make Visual Novel in Blue Archive style
 
-![Untitled](https://github.com/user-attachments/assets/1ede932e-cb0a-4805-ba19-706efe23ea68)
+![image](https://github.com/user-attachments/assets/7258af66-735c-4b68-afe4-39ebdd469689)
 
 ## Introduction
 BAVN is short for Blue Archive Visual Novel
@@ -13,8 +13,12 @@ My youtube channel: https://www.youtube.com/@ChocolaDeluxed
 
 Demo: https://www.youtube.com/watch?v=ilRtgrTB4yM&
 
-## Requirement: Windows 7 (64bits) and up
 
+## Requirememt: Windows 7 and up
+
+For 32 bits system: Use Renpy 7
+
+For 64 bits system: Use Renpy 8
 ## Installing instruction:
 #### Preparation:
 Visual Studio Code https://code.visualstudio.com/
@@ -39,12 +43,12 @@ https://www.youtube.com/@ZeilLearnings/videos
 https://www.renpy.org/doc/html/index.html
 ## Resources of Blue Archive
 - Images and Sounds are placed in audio and images folder
-- Vì số lượng lớn khiến repo sẽ rất nặng nên mình đã tách sang drive
 - Because the size is too large, I seperated them in another drive, find material you want and download
 - https://drive.google.com/drive/folders/1BkaRi9Cy2sbsrpMYE5MrPYAgsCZSKvTj?usp=sharing
   
 #### Tutorials in written in scripts.rpy, transform.rpy,...
-## Changelog
+## Changelog (DD/MM/YYYY)
+(4/11/2024): Changed file structure and fixed Shiroko
 (9/9/2024): Initally released. Ayane, Hoshino, Nonomi, Serika, Shiroko, Yuuka are added.
 
 ## Goodluck!
