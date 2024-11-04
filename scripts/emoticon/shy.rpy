@@ -75,8 +75,8 @@ layeredimage nonomi_shy:
         "_shy"
 layeredimage shiroko_shy:
     always:
-        pos (180, 155)
+        pos (210, 155)
         "_balloon_N"
     always:
-        pos (130, 110)
+        pos (160, 110)
         "_shy"                

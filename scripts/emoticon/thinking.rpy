@@ -117,14 +117,14 @@ layeredimage nonomi_thinking:
         "_dot_3"   
 layeredimage shiroko_thinking:
     always:
-        pos (190, 155) 
+        pos (210, 155) 
         "_balloon_T"
     always:
-        pos (80, 60)
+        pos (100, 60)
         "_dot_1"
     always:
-        pos (80, 60)
+        pos (100, 60)
         "_dot_2"
     always:
-        pos (80, 60)
+        pos (100, 60)
         "_dot_3"                           

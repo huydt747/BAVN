@@ -45,3 +45,7 @@ layeredimage nonomi_redmark:
     always:
         pos(170, 130)
         "_redmark"
+layeredimage shiroko_redmark:
+    always:
+        pos(210, 130)
+        "_redmark"

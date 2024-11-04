@@ -119,11 +119,11 @@ layeredimage nonomi_sad:
         "_sad_3"        
 layeredimage shiroko_sad:
     always:
-        pos(160, 90)
+        pos(180, 90)
         "_sad_1"
     always:
-        pos(175, 100)
+        pos(195, 100)
         "_sad_2"
     always:
-        pos(190, 80)
+        pos(210, 80)
         "_sad_3"                

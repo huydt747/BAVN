@@ -30,25 +30,30 @@ image _note:
 layeredimage yuuka_note:
     always:
         zoom 0.35
-        pos (140, 80) #164
+        pos (140, 80)
         "_note"
 layeredimage serika_note:
     always:
         zoom 0.35
-        pos (140, 80) #164
+        pos (140, 80)
         "_note"
 layeredimage ayane_note:
     always:
         zoom 0.35
-        pos (20, 80) #164
+        pos (20, 80)
         "_note"        
 layeredimage hoshino_note:
     always:
         zoom 0.35
-        pos (160, 120) #164
+        pos (160, 120)
         "_note"
 layeredimage nonomi_note:
     always:
         zoom 0.35
-        pos (100, 80) #164
+        pos (100, 80)
         "_note"        
+layeredimage shiroko_note:
+    always:
+        zoom 0.35
+        pos (160, 100)
+        "_note"

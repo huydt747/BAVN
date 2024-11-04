@@ -21,21 +21,25 @@ image _angry:
 
 layeredimage yuuka_angry:
     always:
-        pos(170,120)
+        pos(170, 120)
         "_angry"
 layeredimage serika_angry:
     always:
-        pos(180,120)
+        pos(180, 120)
         "_angry"        
 layeredimage ayane_angry:
     always:
-        pos(70,120)
+        pos(70, 120)
         "_angry"        
 layeredimage hoshino_angry:
     always:
-        pos(230,120)
+        pos(230, 120)
         "_angry"                
 layeredimage nonomi_angry:
     always:
-        pos(180,120)
+        pos(180, 120)
         "_angry"                        
+layeredimage shiroko_angry:
+    always:
+        pos(230, 120)
+        "_angry"        

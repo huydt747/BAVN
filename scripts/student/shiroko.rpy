@@ -36,19 +36,19 @@ layeredimage shiroko:
         attribute null default:
             "null"
         attribute action:
-            "yuuka_action"    
+            "shiroko_action"    
         attribute angry:
-            "yuuka_angry"       
+            "shiroko_angry"       
         attribute anxiety:
-            "yuuka_anxiety"    
+            "shiroko_anxiety"    
         attribute chat:
-            "yuuka_chat"       
+            "shiroko_chat"       
         attribute heart:
-            "yuuka_heart"
+            "shiroko_heart"
         attribute note:
-            "yuuka_note"     
+            "shiroko_note"     
         attribute redmark:
-            "yuuka_redmark"    
+            "shiroko_redmark"    
         attribute sad:
             "shiroko_sad"  
         attribute shy:

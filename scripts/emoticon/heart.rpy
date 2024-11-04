@@ -63,4 +63,12 @@ layeredimage nonomi_heart:
     always:
         zoom 0.5
         pos (98, 113)
-        "_heart"                                
+        "_heart"       
+layeredimage shiroko_heart:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (148, 113)
+        "_heart"                                  

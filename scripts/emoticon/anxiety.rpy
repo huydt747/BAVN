@@ -65,4 +65,11 @@ layeredimage nonomi_anxiety:
         "_balloon_N"
     always:
         pos (100, 115)
-        "_anxiety"                   
+        "_anxiety"      
+layeredimage shiroko_anxiety:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        pos (150, 115)
+        "_anxiety"                       

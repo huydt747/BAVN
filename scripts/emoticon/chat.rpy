@@ -36,4 +36,7 @@ layeredimage nonomi_chat:
     always:
         pos (90, 190) 
         "_chat"
-
+layeredimage shiroko_chat:
+    always:
+        pos (140, 200) 
+        "_chat"

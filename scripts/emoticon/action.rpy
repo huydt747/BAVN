@@ -30,3 +30,6 @@ image hoshino_action = Composite(
 image nonomi_action = Composite(
     (0, 0),
     (100, 90), "_action")             
+image shiroko_action = Composite(
+    (0, 0),
+    (130, 90), "_action")    
