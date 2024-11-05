@@ -58,7 +58,9 @@ layeredimage yuuka:
         attribute anxiety:
             "yuuka_anxiety"    
         attribute chat:
-            "yuuka_chat"       
+            "yuuka_chat"
+        attribute greenqs:
+            "yuuka_greenqs"        
         attribute heart:
             "yuuka_heart"
         attribute note:
@@ -88,4 +90,121 @@ image yuuka_halo:
 layeredimage yuuka_halo_animated:
     always:
         "yuuka_halo"
-                 
+
+layeredimage yuuka_action:
+    always:
+        pos(105, 90)
+        "_action"    
+layeredimage yuuka_angry:
+    always:
+        pos(170, 120)
+        "_angry" 
+layeredimage yuuka_anxiety:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        pos (114, 115)
+        "_anxiety"           
+#bulb
+layeredimage yuuka_chat:
+    always:
+        pos (100, 190) 
+        "_chat"
+layeredimage yuuka_greenqs:
+    always:
+        pos (130, 170)
+        "_greenqs"
+layeredimage yuuka_heart:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (112, 113)
+        "_heart"
+layeredimage yuuka_note:
+    always:
+        zoom 0.35
+        pos (140, 80)
+        "_note"        
+#orangemark
+#orangequestion
+layeredimage yuuka_redmark:
+    always:
+        pos(180, 130)
+        "_redmark"
+#redquestion
+layeredimage yuuka_sad:
+    always:
+        pos(130, 90)
+        "_sad_1"
+    always:
+        pos(145, 100)
+        "_sad_2"
+    always:
+        pos(160, 80)
+        "_sad_3"
+layeredimage yuuka_shy:
+    always:
+        pos (165, 155)
+        "_balloon_N"
+    always:
+        pos (115, 110)
+        "_shy" 
+layeredimage yuuka_sigh:
+    always:
+        pos (120, 185)
+        "_sigh"
+layeredimage yuuka_sparkle:
+    always:
+        zoom 0.4
+        pos (155, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (130, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (155, 150)
+        "_sparkle_3"                       
+#steam
+layeredimage yuuka_sweat:
+    always:
+        pos (140, 60)
+        "_sweat_1"
+    always:
+        pos (170, 60)
+        "_sweat_2"
+#tear
+layeredimage yuuka_thinking:
+    always:
+        pos (165, 155)
+        "_balloon_T"
+    always:
+        pos (55, 60)
+        "_dot_1"
+    always:
+        pos (55, 60)
+        "_dot_2"
+    always:
+        pos (55, 60)
+        "_dot_3"
+#zzz
+
+####################### template for my uses
+#bulb
+
+#greenqs
+
+#orangemark
+#orangequestion
+
+#redquestion
+
+#steam
+
+#tear
+
+#zzz

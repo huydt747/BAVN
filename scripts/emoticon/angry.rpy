@@ -17,29 +17,6 @@ image _angry:
         alpha 1.0 
         linear 1.00 alpha 1.0 
         linear 0.30 alpha 0.0 
-  
-
-layeredimage yuuka_angry:
-    always:
-        pos(170, 120)
-        "_angry"
-layeredimage serika_angry:
-    always:
-        pos(180, 120)
-        "_angry"        
-layeredimage ayane_angry:
-    always:
-        pos(70, 120)
-        "_angry"        
-layeredimage hoshino_angry:
-    always:
-        pos(230, 120)
-        "_angry"                
-layeredimage nonomi_angry:
-    always:
-        pos(180, 120)
-        "_angry"                        
-layeredimage shiroko_angry:
-    always:
-        pos(230, 120)
-        "_angry"        
+                  
+        
+         

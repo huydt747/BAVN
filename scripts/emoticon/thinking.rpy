@@ -42,89 +42,11 @@ image _dot_3:
     pause 0.1
     linear 0.5 alpha 0 
 
-# broken, use layerdimage under there instead    
+# broken, use layerdimage instead  
+# i keep it there for referencing  
 # image _thinking = Composite(
 #     (0, 0),
 #     (30, 50), "_balloon_T",
 #     (15, 40), "_dot_1",
 #     (15, 40), "_dot_2",
 #     (15, 40), "_dot_3")
-
-layeredimage yuuka_thinking: # 110 95
-    always:
-        pos (165, 155)
-        "_balloon_T"
-    always:
-        pos (55, 60)
-        "_dot_1"
-    always:
-        pos (55, 60)
-        "_dot_2"
-    always:
-        pos (55, 60)
-        "_dot_3"
-layeredimage serika_thinking:
-    always:
-        pos (165, 155) 
-        "_balloon_T"
-    always:
-        pos (55, 60)
-        "_dot_1"
-    always:
-        pos (55, 60)
-        "_dot_2"
-    always:
-        pos (55, 60)
-        "_dot_3"
-layeredimage ayane_thinking:
-    always:
-        pos (90, 155) 
-        "_balloon_T"
-    always:
-        pos (-20, 60)
-        "_dot_1"
-    always:
-        pos (-20, 60)
-        "_dot_2"
-    always:
-        pos (-20, 60)
-        "_dot_3"                
-layeredimage hoshino_thinking:
-    always:
-        pos (200, 155) 
-        "_balloon_T"
-    always:
-        pos (90, 60)
-        "_dot_1"
-    always:
-        pos (90, 60)
-        "_dot_2"
-    always:
-        pos (90, 60)
-        "_dot_3"   
-layeredimage nonomi_thinking:
-    always:
-        pos (150, 155) 
-        "_balloon_T"
-    always:
-        pos (40, 60)
-        "_dot_1"
-    always:
-        pos (40, 60)
-        "_dot_2"
-    always:
-        pos (40, 60)
-        "_dot_3"   
-layeredimage shiroko_thinking:
-    always:
-        pos (210, 155) 
-        "_balloon_T"
-    always:
-        pos (100, 60)
-        "_dot_1"
-    always:
-        pos (100, 60)
-        "_dot_2"
-    always:
-        pos (100, 60)
-        "_dot_3"                           

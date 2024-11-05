@@ -28,9 +28,9 @@ layeredimage nonomi:
     xpos 0.50
     zoom 1.7
     always:
-        "nnnm halo2"
+        "nnm halo2"
     always:
-        "nnnm halo1"    
+        "nnm halo1"    
     always:
         "nnm body"   
     group eyes:
@@ -84,7 +84,9 @@ layeredimage nonomi:
         attribute anxiety:
             "nonomi_anxiety"    
         attribute chat:
-            "nonomi_chat"       
+            "nonomi_chat"
+        attribute greenqs:
+            "nonomi_greenqs"           
         attribute heart:
             "nonomi_heart"
         attribute note:
@@ -123,4 +125,105 @@ layeredimage nonomi_halo_animated:
         "nonomi_halo1"
     always:
         "nonomi_halo2"
-                                
+
+layeredimage nonomi_action:
+    always:
+        pos(100, 90)
+        "_action"
+layeredimage nonomi_angry:
+    always:
+        pos(180, 120)
+        "_angry"        
+layeredimage nonomi_anxiety:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        pos (100, 115)
+        "_anxiety"
+#bulb        
+layeredimage nonomi_chat:
+    always:
+        pos (90, 190) 
+        "_chat"        
+layeredimage nonomi_greenqs:
+    always:
+        pos (140, 170)
+        "_greenqs"
+layeredimage nonomi_heart:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (98, 113)
+        "_heart"
+layeredimage nonomi_note:
+    always:
+        zoom 0.35
+        pos (100, 80)
+        "_note"
+#orange mark
+#orange question
+layeredimage nonomi_redmark:
+    always:
+        pos(170, 130)
+        "_redmark"
+#redmark
+layeredimage nonomi_sad:
+    always:
+        pos(130, 90)
+        "_sad_1"
+    always:
+        pos(145, 100)
+        "_sad_2"
+    always:
+        pos(160, 80)
+        "_sad_3"
+layeredimage nonomi_shy:
+    always:
+        pos (150, 155)
+        "_balloon_N"
+    always:
+        pos (100, 110)
+        "_shy"
+layeredimage nonomi_sigh:
+    always:
+        pos (120, 185)
+        "_sigh"
+layeredimage nonomi_sparkle:
+    always:
+        zoom 0.4
+        pos (165, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (140, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (165, 150)
+        "_sparkle_3"
+#steam
+layeredimage nonomi_sweat:
+    always:
+        pos (140, 60)
+        "_sweat_1"
+    always:
+        pos (170, 60)
+        "_sweat_2"
+#tear
+layeredimage nonomi_thinking:
+    always:
+        pos (150, 155) 
+        "_balloon_T"
+    always:
+        pos (40, 60)
+        "_dot_1"
+    always:
+        pos (40, 60)
+        "_dot_2"
+    always:
+        pos (40, 60)
+        "_dot_3"
+#zzz                             

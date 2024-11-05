@@ -15,28 +15,3 @@ image _chat:
     ease 0.25 rotate 10
     ease 0.25 rotate -10
     linear 0.5 alpha 0    
-
-layeredimage yuuka_chat:
-    always:
-        pos (100, 190) 
-        "_chat"
-layeredimage serika_chat:
-    always:
-        pos (120, 190) 
-        "_chat"
-layeredimage ayane_chat:
-    always:
-        pos (10, 190) 
-        "_chat"
-layeredimage hoshino_chat:
-    always:
-        pos (150, 210) 
-        "_chat"
-layeredimage nonomi_chat:
-    always:
-        pos (90, 190) 
-        "_chat"
-layeredimage shiroko_chat:
-    always:
-        pos (140, 200) 
-        "_chat"

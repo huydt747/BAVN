@@ -92,3 +92,101 @@ layeredimage serika_halo_animated:
     always:
         "serika_halo"
                  
+layeredimage serika_action:
+    always:
+        pos(105, 90)
+        "_action"    
+layeredimage serika_angry:
+    always:
+        pos(180, 120)
+        "_angry"    
+layeredimage serika_anxiety:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        pos (114, 115)
+        "_anxiety"  
+#bulb
+layeredimage serika_chat:
+    always:
+        pos (120, 190) 
+        "_chat"
+#greenqs da lam
+layeredimage serika_heart:
+    always:
+        pos (164, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (112, 113)
+        "_heart"
+layeredimage serika_note:
+    always:
+        zoom 0.35
+        pos (140, 80)
+        "_note"
+#orange mark
+#orange question
+layeredimage serika_redmark:
+    always:
+        pos(180, 130)
+        "_redmark"
+#red question
+layeredimage serika_sad:
+    always:
+        pos(160, 90)
+        "_sad_1"
+    always:
+        pos(175, 100)
+        "_sad_2"
+    always:
+        pos(190, 80)
+        "_sad_3"
+layeredimage serika_shy:
+    always:
+        pos (165, 155)
+        "_balloon_N"
+    always:
+        pos (112, 110)
+        "_shy"
+layeredimage serika_sigh:
+    always:
+        pos (150, 185)
+        "_sigh"
+layeredimage serika_sparkle:
+    always:
+        zoom 0.4
+        pos (175, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (150, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (175, 150)
+        "_sparkle_3"                
+#steam
+layeredimage serika_sweat:
+    always:
+        pos (160, 60)
+        "_sweat_1"
+    always:
+        pos (190, 60)
+        "_sweat_2"
+#tear
+layeredimage serika_thinking:
+    always:
+        pos (165, 155) 
+        "_balloon_T"
+    always:
+        pos (55, 60)
+        "_dot_1"
+    always:
+        pos (55, 60)
+        "_dot_2"
+    always:
+        pos (55, 60)
+        "_dot_3"
+#zzz

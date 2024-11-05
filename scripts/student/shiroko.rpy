@@ -42,7 +42,9 @@ layeredimage shiroko:
         attribute anxiety:
             "shiroko_anxiety"    
         attribute chat:
-            "shiroko_chat"       
+            "shiroko_chat"
+        attribute greenqs:
+            "shiroko_greenqs"           
         attribute heart:
             "shiroko_heart"
         attribute note:
@@ -71,4 +73,105 @@ image shiroko_halo:
 layeredimage shiroko_halo_animated:
     always:
         "shiroko_halo"
-                                        
+
+layeredimage shiroko_action:
+    always:
+        pos(130, 90)
+        "_action"
+layeredimage shiroko_angry:
+    always:
+        pos(230, 120)
+        "_angry"                                        
+layeredimage shiroko_anxiety:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        pos (150, 115)
+        "_anxiety"
+#bulb
+layeredimage shiroko_chat:
+    always:
+        pos (140, 200) 
+        "_chat"
+layeredimage shiroko_greenqs:
+    always:
+        pos (170, 170)
+        "_greenqs"
+layeredimage shiroko_heart:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (148, 113)
+        "_heart"
+layeredimage shiroko_note:
+    always:
+        zoom 0.35
+        pos (160, 100)
+        "_note"        
+#orangemark
+#orangequestion
+layeredimage shiroko_redmark:
+    always:
+        pos(210, 130)
+        "_redmark"
+#redquestion
+layeredimage shiroko_sad:
+    always:
+        pos(180, 90)
+        "_sad_1"
+    always:
+        pos(195, 100)
+        "_sad_2"
+    always:
+        pos(210, 80)
+        "_sad_3"
+layeredimage shiroko_shy:
+    always:
+        pos (210, 155)
+        "_balloon_N"
+    always:
+        pos (160, 110)
+        "_shy"
+layeredimage shiroko_sigh:
+    always:
+        pos (170, 200)
+        "_sigh" 
+layeredimage shiroko_sparkle:
+    always:
+        zoom 0.4
+        pos (185, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (160, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (185, 150)
+        "_sparkle_3"                       
+#steam
+layeredimage shiroko_sweat:
+    always:
+        pos (190, 60)
+        "_sweat_1"
+    always:
+        pos (220, 60)
+        "_sweat_2"
+#tear
+layeredimage shiroko_thinking:
+    always:
+        pos (210, 155) 
+        "_balloon_T"
+    always:
+        pos (100, 60)
+        "_dot_1"
+    always:
+        pos (100, 60)
+        "_dot_2"
+    always:
+        pos (100, 60)
+        "_dot_3"
+#zzz                

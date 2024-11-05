@@ -74,7 +74,9 @@ layeredimage ayane:
         attribute anxiety:
             "ayane_anxiety"    
         attribute chat:
-            "ayane_chat"       
+            "ayane_chat"
+        attribute greenqs:
+            "ayane_greenqs"          
         attribute heart:
             "ayane_heart"
         attribute note:
@@ -103,4 +105,104 @@ image ayane_halo:
 layeredimage ayane_halo_animated:
     always:
         "ayane_halo"
-                 
+
+layeredimage ayane_action:
+    always:
+        pos(15, 90)
+        "_action"    
+layeredimage ayane_angry:
+    always:
+        pos(70, 120)
+        "_angry"
+layeredimage ayane_anxiety:
+    always:
+        pos (80, 155)
+        "_balloon_N"
+    always:
+        pos (30, 115)
+        "_anxiety"
+#bulb
+layeredimage ayane_chat:
+    always:
+        pos (10, 190) 
+        "_chat"
+layeredimage ayane_greenqs:
+    always:
+        pos (35, 140)
+        "_greenqs"
+layeredimage ayane_heart:
+    always:
+        pos (90, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (38, 113)
+        "_heart" 
+layeredimage ayane_note:
+    always:
+        zoom 0.35
+        pos (20, 80)
+        "_note" 
+#orange mark
+#orange question
+layeredimage ayane_redmark:
+    always:
+        pos(90, 130)
+        "_redmark"
+layeredimage ayane_sad:
+    always:
+        pos(50, 90)
+        "_sad_1"
+    always:
+        pos(65, 100)
+        "_sad_2"
+    always:
+        pos(80, 80)
+        "_sad_3"
+layeredimage ayane_shy:
+    always:
+        pos (100, 155)
+        "_balloon_N"
+    always:
+        pos (50, 110)
+        "_shy"
+layeredimage ayane_sigh:
+    always:
+        pos (40, 185)
+        "_sigh"
+layeredimage ayane_sparkle:
+    always:
+        zoom 0.4
+        pos (75, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (50, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (75, 150)
+        "_sparkle_3"        
+#steam
+layeredimage ayane_sweat:
+    always:
+        pos (70, 60)
+        "_sweat_1"
+    always:
+        pos (100, 60)
+        "_sweat_2"
+#tear
+layeredimage ayane_thinking:
+    always:
+        pos (90, 155) 
+        "_balloon_T"
+    always:
+        pos (-20, 60)
+        "_dot_1"
+    always:
+        pos (-20, 60)
+        "_dot_2"
+    always:
+        pos (-20, 60)
+        "_dot_3"
+#zzz

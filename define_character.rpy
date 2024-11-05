@@ -48,7 +48,9 @@ define aym = Character("Ayame", color="fff", who_outlines=[ (3, "#2a425b")], wha
 # define ui = Character("Ui", color="fff", who_outlines=[ (3, "#2a425b")], what_outlines=[ (2, "#2a425b")], show_faction="Library Committee")
 # define smk = Character("Shimiko", color="fff", who_outlines=[ (3, "#2a425b")], what_outlines=[ (2, "#2a425b")], show_faction="Library Committee")
 
-####Millennium
+#### Millennium
+## Seminar
 define yk = Character("Yuuka", color="fff", who_outlines=[ (3, "#2a425b")], what_outlines=[ (2, "#2a425b")], show_faction="Seminar")
+define noa = Character("Noa", color="fff", who_outlines=[ (3, "#2a425b")], what_outlines=[ (2, "#2a425b")], show_faction="Seminar")
 
 

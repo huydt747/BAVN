@@ -30,46 +30,5 @@ image _anxiety:
     parallel:
         pause 0.8
         linear 0.5 alpha 0  
-
-layeredimage yuuka_anxiety:
-    always:
-        pos (164, 155)
-        "_balloon_N"
-    always:
-        pos (114, 115)
-        "_anxiety"
-layeredimage serika_anxiety:
-    always:
-        pos (164, 155)
-        "_balloon_N"
-    always:
-        pos (114, 115)
-        "_anxiety"
-layeredimage ayane_anxiety:
-    always:
-        pos (80, 155)
-        "_balloon_N"
-    always:
-        pos (30, 115)
-        "_anxiety"                
-layeredimage hoshino_anxiety:
-    always:
-        pos (220, 155)
-        "_balloon_N"
-    always:
-        pos (170, 115)
-        "_anxiety"   
-layeredimage nonomi_anxiety:
-    always:
-        pos (150, 155)
-        "_balloon_N"
-    always:
-        pos (100, 115)
-        "_anxiety"      
-layeredimage shiroko_anxiety:
-    always:
-        pos (200, 155)
-        "_balloon_N"
-    always:
-        pos (150, 115)
-        "_anxiety"                       
+    
+                           

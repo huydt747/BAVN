@@ -86,7 +86,9 @@ layeredimage hoshino:
         attribute anxiety:
             "hoshino_anxiety"    
         attribute chat:
-            "hoshino_chat"       
+            "hoshino_chat"
+        attribute greenqs:
+            "hoshino_greenqs"           
         attribute heart:
             "hoshino_heart"
         attribute note:
@@ -134,3 +136,105 @@ layeredimage hoshino_halo_animated:
         "hoshino_halo2"
     always:
         "hoshino_halo1"    
+
+layeredimage hoshino_action:
+    always:
+        pos(150, 90)
+        "_action"
+layeredimage hoshino_angry:
+    always:
+        pos(230, 120)
+        "_angry"        
+layeredimage hoshino_anxiety:
+    always:
+        pos (220, 155)
+        "_balloon_N"
+    always:
+        pos (170, 115)
+        "_anxiety"
+#bulb                
+layeredimage hoshino_chat:
+    always:
+        pos (150, 210) 
+        "_chat"
+layeredimage hoshino_greenqs:
+    always:
+        pos (180, 150)
+        "_greenqs"
+layeredimage hoshino_heart:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        zoom 0.5
+        pos (148, 113)
+        "_heart"
+layeredimage hoshino_note:
+    always:
+        zoom 0.35
+        pos (160, 120)
+        "_note"
+#orange mark
+#orange question 
+layeredimage hoshino_redmark:
+    always:
+        pos(220, 130)
+        "_redmark"
+#red question
+layeredimage hoshino_sad:
+    always:
+        pos(170, 90)
+        "_sad_1"
+    always:
+        pos(185, 100)
+        "_sad_2"
+    always:
+        pos(200, 80)
+        "_sad_3"
+layeredimage hoshino_shy:
+    always:
+        pos (200, 155)
+        "_balloon_N"
+    always:
+        pos (150, 110)
+        "_shy"
+layeredimage hoshino_sigh:
+    always:
+        pos (180, 200)
+        "_sigh"
+layeredimage hoshino_sparkle:
+    always:
+        zoom 0.4
+        pos (205, 110)
+        "_sparkle_1"
+    always:
+        zoom 0.5
+        pos (180, 130)
+        "_sparkle_2"
+    always:
+        zoom 0.5
+        pos (205, 150)
+        "_sparkle_3"
+#steam
+layeredimage hoshino_sweat:
+    always:
+        pos (180, 60)
+        "_sweat_1"
+    always:
+        pos (210, 60)
+        "_sweat_2"
+#tear
+layeredimage hoshino_thinking:
+    always:
+        pos (200, 155) 
+        "_balloon_T"
+    always:
+        pos (90, 60)
+        "_dot_1"
+    always:
+        pos (90, 60)
+        "_dot_2"
+    always:
+        pos (90, 60)
+        "_dot_3"
+#zzz                                          

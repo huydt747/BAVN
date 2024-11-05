@@ -26,34 +26,3 @@ image _note:
         linear 0.15 zoom 0.95 
         linear 0.15 zoom 1.05    
     #with Pause(1.10)
-
-layeredimage yuuka_note:
-    always:
-        zoom 0.35
-        pos (140, 80)
-        "_note"
-layeredimage serika_note:
-    always:
-        zoom 0.35
-        pos (140, 80)
-        "_note"
-layeredimage ayane_note:
-    always:
-        zoom 0.35
-        pos (20, 80)
-        "_note"        
-layeredimage hoshino_note:
-    always:
-        zoom 0.35
-        pos (160, 120)
-        "_note"
-layeredimage nonomi_note:
-    always:
-        zoom 0.35
-        pos (100, 80)
-        "_note"        
-layeredimage shiroko_note:
-    always:
-        zoom 0.35
-        pos (160, 100)
-        "_note"
