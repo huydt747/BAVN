@@ -48,7 +48,11 @@ https://www.renpy.org/doc/html/index.html
   
 #### Tutorials in written in scripts.rpy, transform.rpy,...
 ## Changelog (DD/MM/YYYY)
+
+(5/11/2014): Changed code structure, added Noa
+
 (4/11/2024): Changed file structure and fixed Shiroko
+
 (9/9/2024): Initally released. Ayane, Hoshino, Nonomi, Serika, Shiroko, Yuuka are added.
 
 ## Goodluck!
