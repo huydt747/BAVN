@@ -48,6 +48,7 @@ https://www.renpy.org/doc/html/index.html
   
 #### Hướng dẫn dùng đã ghi trong scripts.rpy, transform.rpy,...
 ## Nhật kí chỉnh sửa
+(11/4/2024): Thay đổi cấu trúc code, sửa lại Shiroko
 (9/9/2024): Chính thức ra mắt. Ayane, Hoshino, Nonomi, Serika, Shiroko, Yuuka đã được thêm vào.
 
 ## Chúc may mắn!
